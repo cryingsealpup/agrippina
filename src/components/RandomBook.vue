@@ -173,6 +173,15 @@ button.clicked {
   padding: 0.5rem;
 }
 
+img {
+  height: 20rem;
+}
+
+a {
+  height: 100%;
+  display: block;
+}
+
 @media (max-width: 768px) {
   .book-wrapper {
     width: 100%;
