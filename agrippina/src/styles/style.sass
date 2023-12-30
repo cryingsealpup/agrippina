@@ -11,11 +11,29 @@ body
     height: 21.5rem
     padding: 2rem
     text-align: center
-    display: flex
     align-items: center
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+
+h1 
+    margin: 0
+    border-left: 1px solid 
 
 .book 
     &-card 
         background: #A7BEAE
         height: 10rem
         width: 10rem
+
+@media  ( max-width: 768px ) 
+    body 
+        background: linear-gradient(to bottom, black 50%, #c63e90 50%)
+    #app 
+        grid-template-columns: unset
+        grid-template-rows: repeat(2, 1fr)
+        height: auto
+        flex-direction: column-reverse
+    h1
+        border-left: unset
+        border-top: 1px solid 
+    

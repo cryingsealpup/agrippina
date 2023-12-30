@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import RandomBook from './components/RandomBook.vue';
 </script>
 
 <template>
-    <HelloWorld />
+    <RandomBook />
 </template>
 
 <style scoped>
