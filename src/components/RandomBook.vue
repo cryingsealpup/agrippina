@@ -185,6 +185,7 @@ a {
 @media (max-width: 768px) {
   .book-wrapper {
     width: 100%;
+    height: 30rem;
     margin-top: 1rem;
   }
 
